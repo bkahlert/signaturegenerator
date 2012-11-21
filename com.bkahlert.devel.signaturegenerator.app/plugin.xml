@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            name="Signature Generator"
+            application="org.eclipse.e4.ui.workbench.swt.E4Application">
+         <property
+               name="appName"
+               value="Signature Generator">
+         </property>
+         <property
+               name="applicationXMI"
+               value="com.bkahlert.devel.signaturegenerator.app/Application.e4xmi">
+         </property>
+         <property
+               name="applicationCSS"
+               value="platform:/plugin/com.bkahlert.devel.signaturegenerator.app/css/default.css">
+         </property>
+         <property
+               name="windowImages"
+               value="/com.bkahlert.devel.signaturegenerator.misc/graphics/icon-16.png,/com.bkahlert.devel.signaturegenerator.misc/graphics/icon-32.png,/com.bkahlert.devel.signaturegenerator.misc/graphics/icon-48.png,/com.bkahlert.devel.signaturegenerator.misc/graphics/icon-64.png,/com.bkahlert.devel.signaturegenerator.misc/graphics/icon-128.png">
+         </property>
+      </product>
+   </extension>
+
+</plugin>
